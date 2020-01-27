@@ -1,6 +1,8 @@
 ---
 layout: blocks
-title: 
+title: index
+permalink: /
+
 page_sections:
 - template: navigation-header
   block: header-2
@@ -10,7 +12,7 @@ page_sections:
     link_text: Home
   - link: "#features"
     link_text: About
-  - link: "#pricing"
+  - link: "/proposal/"
     link_text: Proposal
 
 - template: content-feature
