@@ -752,8 +752,9 @@ input.inverted::placeholder {
 }
 
 .block-media-1 figcaption {
-    font-size: 11.2px;
-    font-size: .7rem;
+    /* font-size: 11.2px;
+    font-size: .7rem; */
+    font-size: 1rem;
     color: #666;
     text-align: center;
     margin-top: 8px;
@@ -781,8 +782,10 @@ input.inverted::placeholder {
 }
 
 .block-media-2 figcaption {
-    font-size: 11.2px;
-    font-size: .7rem;
+    /* font-size: 11.2px;
+    font-size: .7rem; */
+    /* font-size: 14px; */
+    font-size: 1rem;
     color: #666;
     text-align: center;
     margin-top: 8px;
