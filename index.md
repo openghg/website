@@ -14,6 +14,8 @@ page_sections:
     link_text: About
   - link: "/proposal/"
     link_text: Proposal
+  - link: "https://www.hugs-cloud.com"
+    link_text: HUGS Cloud
 
 - template: content-feature
   block: feature-1
@@ -43,14 +45,24 @@ page_sections:
     image: "/uploads/pngs/technologies_lower.png"
     alt_text: Open source technologies
 
+- template: content-feature-imagelink
+  block: feature-imagelink
+  media_alignment: Right
+  headline: <strong>Cloud experience</strong>
+  content: Built with knowledge gained during the development of the HUGS Cloud platform
+  media:
+    image_link: "https://www.hugs-cloud.com"
+    image: "/uploads/pngs/hugs_site.png"
+    alt_text: HUGS Cloud
+
 - template: content-feature
   block: feature-1
-  media_alignment: Left
+  media_alignment: Right
   headline: <strong>Interactive figures</strong>
   content: To view the interactive versions of the figures in our proposal <a href="https://www.openghg.org/proposal">please click here</a> 
   media:
     image: "/uploads/logo/voila_logo.png"
-    alt_text: London footprint
+    alt_text: Voila logo
 
 
 - template: simple-footer

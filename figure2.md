@@ -13,6 +13,8 @@ page_sections:
     link_text: About
   - link: "/proposal/"
     link_text: Proposal
+  - link: "https://www.hugs-cloud.com"
+    link_text: HUGS Cloud
 
 - template: content-feature
   block: feature-1
@@ -28,4 +30,4 @@ page_sections:
   content: OpenGHG 2020 - CC0
 
 ---
-foo bar
+Error
