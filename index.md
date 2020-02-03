@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: index
+title: Home
 permalink: /
 
 page_sections:
@@ -38,14 +38,24 @@ page_sections:
   block: feature-1
   media_alignment: Right
   headline: <strong>Open source technologies</strong>
-  content: OpenGHG builds on open source technologies to allow cutting edge research on inherently scalable cloud plato
+  content: OpenGHG will be built on open source technologies to allow cutting edge research on highly scalable cloud platforms
   media:
     image: "/uploads/pngs/technologies_lower.png"
-    alt_text: Jupyter Notebook powered analysis
+    alt_text: Open source technologies
+
+- template: content-feature
+  block: feature-1
+  media_alignment: Left
+  headline: <strong>Interactive figures</strong>
+  content: To view the interactive versions of the figures in our proposal <a href="https://www.openghg.org/proposal">please click here</a> 
+  media:
+    image: "/uploads/logo/voila_logo.png"
+    alt_text: London footprint
+
 
 - template: simple-footer
   block: footer-1
-  content: OpenGHG 2019 - CC0
+  content: OpenGHG 2020 - CC0
 
 ---
 foo bar
