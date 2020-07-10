@@ -4,11 +4,11 @@ A simple [Jekyll](https://jekyllrb.com/) based site for [openghg.org](https://ww
 
 ## Modify and build locally
 
-This site uses [Jekyll](https://jekyllrb.com/) to create pages using a simple markdown format. Pages are easily modified through changing
+This site uses Jekyll to create pages using a simple markdown format. Pages are easily modified by changing
 the `.md` files in the root directory of the repo.
 
 ### Install ruby
-You will first need to install ruby. To do this please follow the [instructions here](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-18-04). Note that this has been tested to work with Ruby 2.6.3 but should hopefully work with newer versions of Ruby.
+You will first need to install ruby. To do this please follow the [instructions here](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-18-04). Note that this site was originally built and tested to work with Ruby 2.6.3 but should work with newer versions of Ruby.
 
 ### Build the site 
 
@@ -32,4 +32,4 @@ Deployment is done using Travis, any commits pushed to the master branch will be
 
 ## Credits
 
-The template used to build the site was modified from a Jekyll template by [Forestry.io](https://github.com/forestryio/ubuild-jekyll).
+The template used to build the site is a modified version of a template by [Forestry.io](https://github.com/forestryio/ubuild-jekyll).
