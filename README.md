@@ -16,7 +16,7 @@ Next run
 
 ` gem install bundler jekyll`
 
-Next move into the `openghg_web` directory and run
+Next move into the `website` directory and run
 
 `bundle install`
 
