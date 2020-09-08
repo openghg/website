@@ -271,6 +271,7 @@ DEPENDENCIES
   html-proofer
   jekyll-feed
   jekyll-menus
+  kramdown (>= 2.3.0)
   tzinfo-data
 
 BUNDLED WITH
