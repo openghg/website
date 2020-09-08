@@ -13,8 +13,6 @@ page_sections:
     link_text: About
   - link: "/proposal/"
     link_text: Proposal
-  - link: "/londonGHG/"
-    link_text: LondonGHG
   - link: "https://www.hugs-cloud.com"
     link_text: HUGS Cloud
 
