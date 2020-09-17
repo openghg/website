@@ -22,7 +22,7 @@ page_sections:
   media_alignment: Right
   headline: <strong>OpenGHG<span class="light">&nbsp;</span></strong><span
     class="light">a platform for collaboration</span>
-  content: For researchers, stakeholders and the public, OpenGHG will offer a platform to perform analyses on greenhouse gas measurements from sites worldwide.
+  content: For researchers, stakeholders and the public, OpenGHG will offer a platform to perform analyses on greenhouse gas measurements from sites around the world.
   media:
     image: "/uploads/pngs/Figure_2.png"
     alt_text: Sites worldwide
@@ -70,4 +70,4 @@ page_sections:
   content: OpenGHG 2020 - CC0
 
 ---
-foo bar
+Error
