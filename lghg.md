@@ -14,7 +14,7 @@ page_sections:
 - template: content-feature
   block: hero-2
   media_alignment: Right
-  headline: <strong>London GHG<span class="light">&nbsp;</span></strong><br><span class="light">A new system for measuring London's emissions</span>
+  headline: <strong>London GHG<span class="light">&nbsp;</span></strong><br><span class="light">A new system for estimating London's emissions</span>
   content: To tackle climate change, we need to measure and reduce carbon emissions. London GHG is installing a new network of atmospheric measurements across the capital, and developing a new modelling framework to provide emission estimates of carbon dioxide and methane.
   image:
     image: "/uploads/pngs/LGHG/map.png"
@@ -41,11 +41,17 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  headline: <strong>Partners</strong>
-  content: This project is supported by researchers from the University of Bristol, the University of Cambridge, Cranfield University, Cambridge Environmental Research Consultants and funded by the Natural Environment Research Council.
+  headline: <strong>People</strong>
+  content: 'This project is supported by researchers from the University of Bristol, the University of Cambridge, Cranfield University, Cambridge Environmental Research Consultants and funded by the Natural Environment Research Council. <br><br> Want to ask a question or work with us? Please email us: <br><br> <b>Rod Jones</b>: <a href="mailto:rlj1001@cam.ac.uk">rlj1001@cam.ac.uk</a> <br> <b>Neil Harris</b>: <a href="mailto:neil.harris@cranfield.ac.uk">neil.harris@cranfield.ac.uk</a> <br> <b>Matt Rigby</b>: <a href="mailto:matt.rigby@bristol.ac.uk">matt.rigby@bristol.ac.uk</a> <br> <b>David Carruthers</b>: <a href="mailto:david.carruthers@cerc.co.uk">david.carruthers@cerc.co.uk</a>'
   media:
     image: "/uploads/pngs/LGHG/partners.png"
     alt_text: Sites worldwide
+
+- template: content-feature
+  block: feature-1
+  media_alignment: Right
+  headline: <strong>Research Outputs</strong>
+  content: '<b>Publications:</b> <br><br> <a href="https://doi.org/10.1002/wea.3795">"Development of an urban greenhouse gas modelling system to support a London monitoring network", Hoare et. al. (2020)</a>'
 
 - template: simple-footer
   block: footer-1
