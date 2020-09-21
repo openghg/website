@@ -1,6 +1,6 @@
 ## OpenGHG website
 
-A simple [Jekyll](https://jekyllrb.com/) based site for [openghg.org](https://www.openghg.org)
+A simple [Jekyll](https://jekyllrb.com/) based site for [openghg.org](https://openghg.org)
 
 ## Modify and build locally
 

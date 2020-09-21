@@ -59,7 +59,7 @@ page_sections:
   block: feature-1
   media_alignment: Right
   headline: <strong>Interactive figures</strong>
-  content: To view interactive versions of the figures in our proposal <a href="https://www.openghg.org/proposal">please click here</a> 
+  content: To view interactive versions of the figures in our proposal <a href="https://openghg.org/proposal">please click here</a> 
   media:
     image: "/uploads/logo/voila_logo.png"
     alt_text: Voila logo
