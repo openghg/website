@@ -30,7 +30,7 @@ This will start a local server at `127.0.0.1:4000` to allow you to see changes m
 
 ## Deploy
 
-Deployment is done using Travis, any commits pushed to the master branch will be automatically deployed to openghg.org
+Deployment is done automatically by GitHub pages.
 
 ## Credits
 
