@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/openghg/website.svg?branch=master)](https://travis-ci.org/openghg/website)
-
 ## OpenGHG website
 
 A simple [Jekyll](https://jekyllrb.com/) based site for [openghg.org](https://www.openghg.org)
