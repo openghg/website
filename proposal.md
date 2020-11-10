@@ -2,6 +2,7 @@
 layout: blocks
 title: Proposal
 permalink: /proposal/
+
 page_sections:
 - template: navigation-header
   block: header-2
@@ -13,6 +14,8 @@ page_sections:
     link_text: About
   - link: "/proposal/"
     link_text: Proposal
+  - link: "https://docs.openghg.org/"
+    link_text: Docs
   - link: "https://www.hugs-cloud.com"
     link_text: HUGS Cloud
 
