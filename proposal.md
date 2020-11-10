@@ -16,8 +16,8 @@ page_sections:
     link_text: Proposal
   - link: "https://docs.openghg.org/"
     link_text: Docs
-  - link: "https://www.hugs-cloud.com"
-    link_text: HUGS Cloud
+  - link: "/cloud/"
+    link_text: OpenGHG Cloud
 
 - template: content-feature
   block: feature-1
