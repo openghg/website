@@ -10,10 +10,8 @@ page_sections:
   navigation:
   - link: "/"
     link_text: Home
-  - link: "#features"
+  - link: "/about/"
     link_text: About
-  - link: "/proposal/"
-    link_text: Proposal
   - link: "https://docs.openghg.org/"
     link_text: Docs
   - link: "/cloud/"
