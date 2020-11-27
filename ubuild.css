@@ -407,6 +407,30 @@ input.inverted::placeholder {
     margin-bottom: 1rem
 }
 
+.block-one-column-text .columns {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: -32px;
+    margin: -2rem
+}
+
+.block-one-column-text .column {
+    -ms-flex: 0 0 calc(100% - 4rem);
+    flex: 0 0 calc(100% - 4rem);
+    margin: 32px;
+    margin: 2rem;
+    text-align: left;
+    line-height: 1.9;
+    
+}
+
+.block-one-column-text .column h3 {
+    margin-bottom: 16px;
+    margin-bottom: 1rem
+}
+
 .block-two-column-1 .columns {
     display: -ms-flexbox;
     display: flex;

@@ -49,21 +49,11 @@ page_sections:
   block: feature-imagelink
   media_alignment: Right
   headline: <strong>Cloud experience</strong>
-  content: Built with knowledge gained during the development of the HUGS Cloud platform
+  content: Built with knowledge gained during the development of the HUGS Cloud platform, the precursor to this project.
   media:
-    image_link: "https://www.hugs-cloud.com"
+    image_link: "http://www.hugs-cloud.com"
     image: "/uploads/pngs/hugs_site.png"
     alt_text: HUGS Cloud
-
-- template: content-feature
-  block: feature-1
-  media_alignment: Right
-  headline: <strong>Interactive figures</strong>
-  content: To view interactive versions of the figures in our proposal <a href="https://openghg.org/proposal">please click here</a> 
-  media:
-    image: "/uploads/logo/voila_logo.png"
-    alt_text: Voila logo
-
 
 - template: simple-footer
   block: footer-1
