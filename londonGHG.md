@@ -55,7 +55,7 @@ page_sections:
 
 - template: simple-footer
   block: footer-1
-  content: OpenGHG 2020 - CC0
+  content: OpenGHG 2022 - CC0
 
 ---
 foo bar
