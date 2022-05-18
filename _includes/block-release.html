@@ -1,0 +1,28 @@
+<section class="block block-release">
+  <div class="container">
+    <div class="columns">
+      <div class="column text">
+        <h2><span class="light">{{ section.headline }}</span></h2>
+        <span class="light">{{ section.date }}</span>
+      </div>
+      <div class="column group">
+        <div class="column header">Features</div>
+        <div class="column points">
+          <ul>
+            {% for feat in section.features %}
+            <li>{{ feat.feature_text }} - <a href="{{ feat.link }}">{{ feat.link_text }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="column header">Fixes</div>
+        <div class="column points">
+          <ul>
+            {% for fix in section.fixes %}
+            <li>{{ fix.fix_text }} - <a href="{{ fix.link }}">{{ fix.link_text }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

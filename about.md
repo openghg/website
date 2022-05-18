@@ -6,16 +6,18 @@ permalink: /about/
 page_sections:
 - template: navigation-header
   block: header-2
-  logo: "/uploads/logo/openghg_logo_v1.png"
+  logo: "/uploads/logo/OpenGHG_Logo_Portrait.png"
   navigation:
-  - link: "/"
-    link_text: Home
-  - link: "/about/"
-    link_text: About
-  - link: "https://docs.openghg.org/"
-    link_text: Docs
-  - link: "/cloud/"
-    link_text: OpenGHG Cloud
+    - link: "/"
+      link_text: Home
+    - link: "/about/"
+      link_text: About
+    - link: "https://docs.openghg.org/"
+      link_text: Docs
+    - link: "https://docs.openghg.org/whatsnew/index.html"
+      link_text: Releases
+    - link: "/cloud/"
+      link_text: OpenGHG Cloud
 
 - template: hero-banner-w-image
   block: hero-2
@@ -91,7 +93,8 @@ page_sections:
     video: "/uploads/videos/Atmospheric_methane_NCAR_mozart_model_sm.mp4"
 - template: simple-footer
   block: footer-1
-  content: OpenGHG 2020 - CC0
+  content: OpenGHG 2022 - CC0
 
 ---
+
 Error

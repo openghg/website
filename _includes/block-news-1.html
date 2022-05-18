@@ -1,0 +1,19 @@
+{% if section.content_alignment and section.content_alignment == "left" %} {%
+include block-news-2.html %} {% else %}
+<section class="block block-news-1">
+  <div class="container">
+    <div class="columns">
+      <div class="column text">
+        <h2><span class="light">{{ section.headline }}</span></h2>
+        <span class="light">{{ section.date }}</span>
+      </div>
+      <div class="column text">
+        <p>
+          {{ section.content }}
+          <a href="{{ section.link }}">{{ section.link_text }}</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}

@@ -1,0 +1,28 @@
+{% if section.video_side and section.video_side == "left" %} {% include
+block-video-tutorial-2.html %} {% else %}
+<section class="block block-video-tut-1">
+  <div class="container">
+    <div class="columns">
+      <div class="column text">
+        <h2><span class="light">{{ section.headline }}</span></h2>
+        <span class="light">{{ section.date }}</span>
+        <p>{{ section.content }}</p>
+      </div>
+
+      <div class="column media">
+        <div class="video-wrap">
+          <div class="video-container">
+            <iframe
+              src="{{ section.embed_url }}"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
