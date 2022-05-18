@@ -42,27 +42,27 @@ page_sections:
     link_text: Click here for more tutorials.
     link: https://docs.openghg.org/tutorials/index.html
 
-  - template: content-feature
-    block: video-tutorial-1
-    headline: Installing OpenGHG using pip or conda
-    date: 2022-05-17
-    video_side: left
-    embed_url: https://www.youtube-nocookie.com/embed/C0DPdy98e4c
+  # - template: content-feature
+  #   block: video-tutorial-1
+  #   headline: Installing OpenGHG using pip or conda
+  #   date: 2022-05-17
+  #   video_side: left
+  #   embed_url: https://www.youtube-nocookie.com/embed/C0DPdy98e4c
 
-  - template: content-feature
-    block: video-tutorial-1
-    headline: Retrieving and plotting data
-    date: 2022-05-18
-    youtube_url: something
-    video_side: left
-    embed_url: https://www.youtube-nocookie.com/embed/C0DPdy98e4c
+  # - template: content-feature
+  #   block: video-tutorial-1
+  #   headline: Retrieving and plotting data
+  #   date: 2022-05-18
+  #   youtube_url: something
+  #   video_side: left
+  #   embed_url: https://www.youtube-nocookie.com/embed/C0DPdy98e4c
 
-  - template: content-feature
-    block: video-tutorial-1
-    headline: Pulling data from the ICOS Carbon Portal
-    date: 2022-05-18
-    video_side: left
-    embed_url: https://www.youtube-nocookie.com/embed/C0DPdy98e4c
+  # - template: content-feature
+  #   block: video-tutorial-1
+  #   headline: Pulling data from the ICOS Carbon Portal
+  #   date: 2022-05-18
+  #   video_side: left
+  #   embed_url: https://www.youtube-nocookie.com/embed/C0DPdy98e4c
 
   - template: content-feature
     block: section-header
