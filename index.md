@@ -14,7 +14,7 @@ page_sections:
         link_text: About
       - link: "https://docs.openghg.org/"
         link_text: Docs
-      - link: "/releases/"
+      - link: "https://docs.openghg.org/whatsnew/index.html"
         link_text: Releases
       - link: "/cloud/"
         link_text: OpenGHG Cloud
@@ -29,7 +29,7 @@ page_sections:
     date: 2022-05-18
     content: We're very happy to announce that version 0.1.0 of OpenGHG has been released to PyPI and conda. This release contains a lot of features such as data standardisation, comparison, analysis and plotting. It also allows you to retrieve and process NOAA Obspack data and pull data from the ICOS Carbon Portal and the CEDA archive.
     link_text: Click here for release notes.
-    link: "/releases/"
+    link: "https://docs.openghg.org/whatsnew/index.html"
 
   - template: content-feature
     block: section-header

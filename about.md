@@ -8,16 +8,16 @@ page_sections:
   block: header-2
   logo: "/uploads/logo/OpenGHG_Logo_Portrait.png"
   navigation:
-  - link: "/"
-    link_text: Home
-  - link: "/about/"
-    link_text: About
-  - link: "https://docs.openghg.org/"
-    link_text: Docs
-  - link: "/releases/"
-    link_text: Releases
-  - link: "/cloud/"
-    link_text: OpenGHG Cloud
+    - link: "/"
+      link_text: Home
+    - link: "/about/"
+      link_text: About
+    - link: "https://docs.openghg.org/"
+      link_text: Docs
+    - link: "https://docs.openghg.org/whatsnew/index.html"
+      link_text: Releases
+    - link: "/cloud/"
+      link_text: OpenGHG Cloud
 
 - template: hero-banner-w-image
   block: hero-2
@@ -96,4 +96,5 @@ page_sections:
   content: OpenGHG 2022 - CC0
 
 ---
+
 Error

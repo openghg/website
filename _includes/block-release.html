@@ -10,7 +10,15 @@
         <div class="column points">
           <ul>
             {% for feat in section.features %}
-            <li>{{ feat.feature_text }}</li>
+            <li>{{ feat.feature_text }} - <a href="{{ feat.link }}">{{ feat.link_text }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="column header">Fixes</div>
+        <div class="column points">
+          <ul>
+            {% for fix in section.fixes %}
+            <li>{{ fix.fix_text }} - <a href="{{ fix.link }}">{{ fix.link_text }}</a></li>
             {% endfor %}
           </ul>
         </div>

@@ -9,7 +9,7 @@ the `.md` files in the root directory of the repo.
 
 ### Install Ruby - macOS
 
-We recommend using `rbenv` to get Ruby installed. This makes handling different versions of Ruby easy. Follow [this guide](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-macos) to get setup. We've built the 
+We recommend using `rbenv` to get Ruby installed. This makes handling different versions of Ruby easy. Follow [this guide](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-macos) to get setup. We've built the
 site using Ruby 3.1.2.
 
 ### Install Ruby - Linux
