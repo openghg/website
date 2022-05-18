@@ -5,13 +5,15 @@
         <h2><span class="light">{{ section.headline }}</span></h2>
         <span class="light">{{ section.date }}</span>
       </div>
-        <div>
-          <div class="column header">Features</div>
-          <div class="column points">{{ section.features }}</div>
-          <div class="column header">Fixes</div>
-          <div class="column points">{{ section.fixes }}</div>
+      <div class="column group">
+        <div class="column header">Features</div>
+        <div class="column points">
+          <ul>
+            {% for feat in section.features %}
+            <li>{{ feat.feature_text }}</li>
+            {% endfor %}
+          </ul>
         </div>
-        <div></div>
       </div>
     </div>
   </div>

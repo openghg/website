@@ -860,13 +860,21 @@ input.inverted::placeholder {
   max-width: 100%;
 }
 
+.block-release .column.group {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
 .block-release .column.header {
   font-size: 2em;
   font-weight: 600;
 }
 
 .block-release .column.points {
-    font-size: 1em;
+  font-size: 1em;
+
+  padding-left: 1em;
 }
 
 @media screen and (min-width: 700px) {
@@ -881,6 +889,182 @@ input.inverted::placeholder {
     margin-right: 2rem;
     margin-bottom: 0;
   }
+}
+
+.block-video-tut-1 .columns {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.block-video-tut-1 .columns-left {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.block-video-tut-1 .column.text {
+  margin-right: 0;
+  margin-bottom: 32px;
+  margin-bottom: 2rem;
+}
+
+.block-video-tut-1 .column.media {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
+.block-video-tut-1 .column.text {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+}
+
+.block-video-tut-1 .column.text h2 {
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+}
+
+.block-video-tut-1 .column.media img {
+  max-width: 100%;
+}
+
+.block-video-tut-1 .column.group {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.block-video-tut-1 .column.header {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.block-video-tut-1 .column.points {
+  font-size: 1em;
+
+  padding-left: 1em;
+}
+
+@media screen and (min-width: 700px) {
+  .block-video-tut-1 .columns {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: left;
+  }
+
+  .block-video-tut-1 .column.text {
+    flex: 0 0 40%;
+    margin-right: 2rem;
+    margin-bottom: 0;
+  }
+}
+
+/* Set your aspect ratio */
+.block-video-tut-1 .video-container {
+  position: relative;
+  overflow: hidden;
+  height: 0;
+  padding-bottom: 56.25%; /* creates a 16:9 aspect ratio */
+}
+
+.block-video-tut-1 .video-container iframe,
+.block-video-tut-1 .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+/* And set the max-width of the parent element */
+.block-video-tut-1 .video-wrap {
+  width: 100%;
+  max-width: 600px;
+}
+
+.block-video-tut-2 .columns {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.block-video-tut-2 .columns-left {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.block-video-tut-2 .column.text {
+  margin-right: 0;
+  margin-bottom: 32px;
+  margin-bottom: 2rem;
+}
+
+.block-video-tut-2 .column.media,
+.block-video-tut-2 .column.text {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+}
+
+.block-video-tut-2 .column.text h2 {
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+}
+
+.block-video-tut-2 .column.media img {
+  max-width: 100%;
+}
+
+.block-video-tut-2 .column.group {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.block-video-tut-2 .column.header {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.block-video-tut-2 .column.points {
+  font-size: 1em;
+
+  padding-left: 1em;
+}
+
+@media screen and (min-width: 700px) {
+  .block-video-tut-2 .columns {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    text-align: left;
+  }
+
+  .block-video-tut-2 .column.text {
+    flex: 0 0 40%;
+    margin-right: 2rem;
+    margin-bottom: 0;
+  }
+}
+
+/* Set your aspect ratio */
+.block-video-tut-2 .video-container {
+  position: relative;
+  overflow: hidden;
+  height: 0;
+  padding-bottom: 56.25%; /* creates a 16:9 aspect ratio */
+}
+
+.block-video-tut-2 .video-container iframe,
+.block-video-tut-2 .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+/* And set the max-width of the parent element */
+.block-video-tut-2 .video-wrap {
+  width: 100%;
+  max-width: 600px;
 }
 
 .block-news-1 .columns {

@@ -1,4 +1,4 @@
-{% if section.content_alignment and section.content_alignment == "Left" %} {%
+{% if section.content_alignment and section.content_alignment == "left" %} {%
 include block-news-2.html %} {% else %}
 <section class="block block-news-1">
   <div class="container">
@@ -8,13 +8,10 @@ include block-news-2.html %} {% else %}
         <span class="light">{{ section.date }}</span>
       </div>
       <div class="column text">
-        <div>
-          <p>
-            {{ section.content }}
-            <a href="{{ section.link }}">{{ section.link_text }}</a>
-          </p>
-        </div>
-        <div></div>
+        <p>
+          {{ section.content }}
+          <a href="{{ section.link }}">{{ section.link_text }}</a>
+        </p>
       </div>
     </div>
   </div>
