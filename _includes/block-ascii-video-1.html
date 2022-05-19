@@ -1,24 +1,27 @@
 {% if section.video_side and section.video_side == "left" %} {% include
-block-video-tutorial-2.html %} {% else %}
+block-ascii-video-2.html %} {% else %}
 <section class="block block-video-tut-1">
   <div class="container">
     <div class="columns">
       <div class="column text">
         <div class="column text header">{{ section.headline }}</div>
         <div class="column text date">{{ section.date }}</div>
-        <div class="column text content">{{ section.content }}</div>
+        <div class="column text content">
+          {{ section.content }}
+          <a href="{{ section.video_url }}" target="_blank"
+            >Click here for a larger version.</a
+          >
+        </div>
       </div>
 
       <div class="column media">
         <div class="video-wrap">
           <div class="video-container">
-            <iframe
-              src="{{ section.embed_url }}"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <script
+              id="{{ section.ascii_id }}"
+              src="{{ section.ascii_url }}"
+              async
+            ></script>
           </div>
         </div>
       </div>
