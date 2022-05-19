@@ -45,7 +45,7 @@ page_sections:
   - template: content-feature
     block: ascii-video-1
     headline: Installing OpenGHG - pip
-    date: 2022-05-18
+    date: 2022-05-19
     content: This short video covers creating a Python virtual environment and installing OpenGHG into it.
     ascii_url: https://asciinema.org/a/495780.js
     ascii_id: asciicast-495780
@@ -54,7 +54,7 @@ page_sections:
   - template: content-feature
     block: ascii-video-1
     headline: Installing OpenGHG - conda
-    date: 2022-05-18
+    date: 2022-05-19
     content: This short video covers creating a conda environment and installing OpenGHG.
     ascii_url: https://asciinema.org/a/495812.js
     ascii_id: asciicast-495812
@@ -64,7 +64,7 @@ page_sections:
   - template: content-feature
     block: video-tutorial-1
     headline: Installing OpenGHG using pip and standardising some data
-    date: 2022-05-17
+    date: 2022-05-19
     video_side: right
     content: This short tutorial covers getting OpenGHG setup, retrieving some example data, standardising it and making a quick plot.
     embed_url: https://www.youtube-nocookie.com/embed/YqiKNvANI9o
