@@ -14,7 +14,7 @@ h1 {
 }
 
 h1 span.light {
-  font-weight: 300;
+  font-weight: 300; 
 }
 
 h2 {
@@ -933,13 +933,22 @@ input.inverted::placeholder {
 }
 
 .block-video-tut-1 .column.header {
+  font-size: 3em;
+  font-weight: 400;
+}
+
+.block-video-tut-1 .column.text.header {
   font-size: 2em;
-  font-weight: 600;
+  font-weight: 400;
+}
+
+.block-video-tut-1 .column.text.date {
+  font-size: 1em;
+  font-weight: 300;
 }
 
 .block-video-tut-1 .column.points {
   font-size: 1em;
-
   padding-left: 1em;
 }
 
@@ -954,6 +963,7 @@ input.inverted::placeholder {
     flex: 0 0 40%;
     margin-right: 2rem;
     margin-bottom: 0;
+    padding-top: 1em;
   }
 }
 
@@ -1027,6 +1037,21 @@ input.inverted::placeholder {
   font-size: 1em;
 
   padding-left: 1em;
+}
+
+.block-video-tut-2 .column.header {
+  font-size: 3em;
+  font-weight: 400;
+}
+
+.block-video-tut-2 .column.text.header {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.block-video-tut-2 .column.text.date {
+  font-size: 1em;
+  font-weight: 300;
 }
 
 @media screen and (min-width: 700px) {

@@ -22,7 +22,7 @@ The [RubyInstall](https://rubyinstaller.org/) is the recommended way of installi
 
 ### Build the site
 
-Next run
+Once Ruby is installed we'll use `gem`, the Ruby package manager, to install bundler (which handles gem versioning) and Jekyll (which creates the site from Markdown / YAML).
 
 ```console
 $ gem install bundler jekyll
@@ -44,9 +44,12 @@ This will start a local server at `127.0.0.1:4000` to allow you to see changes m
 
 ## Development
 
+The site is based on templated blocks. These are just HTML files that are passed data from the markdown. Below we'll cover
+adding new content to the site.
+
 ### News content
 
-The site is based on templated blocks. These are just HTML files that are passed data from the markdown. For example, to create a new short post you could use the `news-1` block. Add this to the top of the `index.md` file (but below the navigation section).
+For example, to create a new short post you could use the `news-1` block. Add this to the top of the `index.md` file (but below the navigation section).
 
 ```yaml
 - template: content-feature
