@@ -14,7 +14,7 @@ h1 {
 }
 
 h1 span.light {
-  font-weight: 300; 
+  font-weight: 300;
 }
 
 h2 {
@@ -955,7 +955,7 @@ input.inverted::placeholder {
 @media screen and (min-width: 700px) {
   .block-video-tut-1 .columns {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1.5fr;
     text-align: left;
   }
 
@@ -1035,7 +1035,6 @@ input.inverted::placeholder {
 
 .block-video-tut-2 .column.points {
   font-size: 1em;
-
   padding-left: 1em;
 }
 
@@ -1057,7 +1056,7 @@ input.inverted::placeholder {
 @media screen and (min-width: 700px) {
   .block-video-tut-2 .columns {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     text-align: left;
   }
 
@@ -1065,6 +1064,7 @@ input.inverted::placeholder {
     flex: 0 0 40%;
     margin-right: 2rem;
     margin-bottom: 0;
+    padding-top: 1em;
   }
 }
 
