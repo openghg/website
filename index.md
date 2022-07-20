@@ -14,8 +14,6 @@ page_sections:
         link_text: About
       - link: "https://docs.openghg.org/"
         link_text: Docs
-      - link: "/contact/"
-        link_text: Contact
       - link: "https://docs.openghg.org/whatsnew/index.html"
         link_text: Releases
       - link: "/cloud/"
