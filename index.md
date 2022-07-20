@@ -14,6 +14,8 @@ page_sections:
         link_text: About
       - link: "https://docs.openghg.org/"
         link_text: Docs
+      - link: "/contact/"
+        link_text: Contact
       - link: "https://docs.openghg.org/whatsnew/index.html"
         link_text: Releases
       - link: "/cloud/"
@@ -23,6 +25,11 @@ page_sections:
     block: section-header
     header: News
 
+  - template: content-feature
+    block: news-1
+    headline: OpenGHG version 0.2.0 released!
+    date: 2022-07-20
+    content: A new version of OpenGHG, <a href="https://docs.openghg.org/whatsnew/v0.2.0.html" target="_blank">0.2.0</a>, has been released! This release accompanies the opening of <a href="https://hub.openghg.org" target="_blank">the OpenGHG Hub</a>. The Hub is a cloud based platform allowing you to use all of the functionality of OpenGHG on an easy to use cloud JupyterHub setup. We've created a number of cloud-specific tutorials for this release to help new users get setup and using the platform. If you'd like to get access to use the Hub please sign up using <a href="https://forms.office.com/r/XpZiuPj0fQ" target="_blank">our registration form</a>.
   - template: content-feature
     block: news-1
     headline: OpenGHG version 0.1.0 released!
