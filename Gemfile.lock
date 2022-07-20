@@ -275,6 +275,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-menus
   kramdown (>= 2.3.2)
+  nokogiri (>= 1.13.6)
   tzinfo-data
   webrick (~> 1.7)
 
