@@ -13,28 +13,9 @@ page_sections:
       - link: "/about/"
         link_text: About
       - link: "https://docs.openghg.org/"
-        link_text: Docs
-      - link: "https://docs.openghg.org/whatsnew/index.html"
-        link_text: Releases
-      - link: "/cloud/"
-        link_text: OpenGHG Cloud
-
-  - template: content-feature
-    block: section-header
-    header: News
-
-  - template: content-feature
-    block: news-1
-    headline: OpenGHG version 0.2.0 released!
-    date: 2022-07-20
-    content: A new version of OpenGHG, <a href="https://docs.openghg.org/whatsnew/v0.2.0.html" target="_blank">0.2.0</a>, has been released! This release accompanies the opening of <a href="https://hub.openghg.org" target="_blank">the OpenGHG Hub</a>. The Hub is a cloud based platform allowing you to use all of the functionality of OpenGHG on an easy to use cloud JupyterHub setup. We've created a number of cloud-specific tutorials for this release to help new users get setup and using the platform. If you'd like to get access to use the Hub please sign up using <a href="https://forms.office.com/r/XpZiuPj0fQ" target="_blank">our registration form</a>.
-  - template: content-feature
-    block: news-1
-    headline: OpenGHG version 0.1.0 released!
-    date: 2022-05-18
-    content: We're very happy to announce that version 0.1.0 of OpenGHG has been released to <a href="https://pypi.org/project/openghg/" target="_blank">PyPI</a> and <a href="https://anaconda.org/openghg/openghg" target="_blank">conda</a>. This release contains a lot of features such as data standardisation, comparison, analysis and plotting. It also allows you to retrieve and process NOAA Obspack data and pull data from the ICOS Carbon Portal and the CEDA archive.
-    link_text: Click here for release notes.
-    link: "https://docs.openghg.org/whatsnew/index.html"
+        link_text: Documentation
+      - link: "https://github.com/openghg/openghg/blob/devel/CHANGELOG.md"
+        link_text: Changelog
 
   - template: content-feature
     block: section-header
@@ -42,10 +23,34 @@ page_sections:
 
   - template: content-feature
     block: news-1
+    headline: Installation
+    content: You can get up and running with OpenGHG within a few minutes by following our installation guide. Along with our range of tutorials you'll get OpenGHG installed using conda or pip, your own local data store setup and be able to retrieve data from archives such as ICOS and CEDA in no time.
+    link_text: Click here for our installation guide.
+    link: https://docs.openghg.org/install.html
+
+  - template: content-feature
+    block: news-1
     headline: Tutorials
-    content: As we ready the OpenGHG cloud you can try OpenGHG locally on your own computer. We've created some video tutorials covering how to get setup with OpenGHG and some of the data standardisation, retrieval and plotting tools we've created. You can find the notebooks we use in these videos on our documentation page, and in our repository.
+    content: We've created some video tutorials covering how to get setup with OpenGHG and some of the data standardisation, retrieval and plotting tools we've created. You can find the notebooks we use in these videos on our documentation page, and in our repository.
     link_text: Click here for more tutorials.
     link: https://docs.openghg.org/tutorials/index.html
+
+
+  - template: content-feature
+    block: section-header
+    header: News
+
+  - template: content-feature
+    block: news-1
+    headline: Version 0.5.0 released
+    date: 2023-03-14
+    content: Today we release version 0.5.0 of OpenGHG. This release comes with new features and fixes. These include the ability to add EDGAR data to the object store, new ways of searching and storing emissions data, two new tutorials and an OpenGHG command line interface to help you get setup quickly.
+    link_text: For the full list of changes see our changelog.
+    link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#050---2023-03-14
+  
+  - template: content-feature
+    block: section-header
+    header: Videos
 
   - template: content-feature
     block: ascii-video-1
@@ -94,7 +99,7 @@ page_sections:
 
   - template: simple-footer
     block: footer-1
-    content: OpenGHG 2022 - CC0
+    content: OpenGHG 2023 - CC0
 ---
 
 Error

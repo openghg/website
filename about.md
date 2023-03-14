@@ -13,11 +13,9 @@ page_sections:
       - link: "/about/"
         link_text: About
       - link: "https://docs.openghg.org/"
-        link_text: Docs
-      - link: "https://docs.openghg.org/whatsnew/index.html"
-        link_text: Releases
-      - link: "/cloud/"
-        link_text: OpenGHG Cloud
+        link_text: Documentation
+      - link: "https://github.com/openghg/openghg/blob/devel/CHANGELOG.md"
+        link_text: Changelog
 
   - template: hero-banner-w-image
     block: hero-2
