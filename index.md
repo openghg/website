@@ -42,6 +42,22 @@ page_sections:
 
   - template: content-feature
     block: news-1
+    headline: Updated NOAA ObsPack retrieval
+    date: 2023-05-10
+    content: With the release of version 0.5.1 of OpenGHG we've made some fixes to our NOAA ObsPack retrieval tutorial, install the latest version of OpenGHG from PyPI or conda today.
+    link_text: Try the OpenGHG ObsPack tutorial.
+    link: https://docs.openghg.org/tutorials/local/Exploring_data/Explore_NOAA_ObsPack.html
+
+  - template: content-feature
+    block: news-1
+    headline: Version 0.5.1 released
+    date: 2023-05-10
+    content: Today we release version 0.5.1 of OpenGHG. This release contains fixes for bugs in some of our standardisation code and our NOAA ObsPack retrieval functionality.
+    link_text: For the full list of changes see our changelog.
+    link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#051---2023-05-10
+
+  - template: content-feature
+    block: news-1
     headline: Version 0.5.0 released
     date: 2023-03-14
     content: Today we release version 0.5.0 of OpenGHG. This release comes with new features and fixes. These include the ability to add EDGAR data to the object store, new ways of searching and storing emissions data, two new tutorials and an OpenGHG command line interface to help you get setup quickly.
