@@ -120,6 +120,16 @@ If you want to modify the layout of a template or create a new template and use 
 
 Deployment is done automatically by GitHub pages.
 
+## Updates
+
+To update the gems used by the site run
+
+```
+bundle update
+```
+
+This will update the dependencies in `Gemfile.lock` and keep DependBot happy.
+
 ## Credits
 
 The template used to build the site is a modified version of a template by [Forestry.io](https://github.com/forestryio/ubuild-jekyll).
