@@ -42,6 +42,14 @@ page_sections:
 
   - template: content-feature
     block: news-1
+    headline: Version 0.6.2 released
+    date: 2023-08-07
+    content: Version 0.6.2 of OpenGHG brings a fix for incorrect object store paths being loaded in from JSON
+    link_text: For the full list of changes see our changelog.
+    link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#062---2023-08-07
+
+  - template: content-feature
+    block: news-1
     headline: Version 0.6.1 released
     date: 2023-08-04
     content: Version 0.6.1 of OpenGHG brings some bug fixes for metadata handling with multiple object stores and the storage of high time resolution footprints
