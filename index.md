@@ -42,6 +42,14 @@ page_sections:
 
   - template: content-feature
     block: news-1
+    headline: Version 0.7.0 released
+    date: 2023-12-15
+    content: Version 0.7.0 of OpenGHG brings the ability to process INTEM model outputs, new metadata handling for improved stability and a range of other bug fixes.
+    link_text: For the full list of changes see our changelog.
+    link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#070---2023-12-15
+
+  - template: content-feature
+    block: news-1
     headline: Version 0.6.2 released
     date: 2023-08-07
     content: Version 0.6.2 of OpenGHG brings a fix for incorrect object store paths being loaded in from JSON
