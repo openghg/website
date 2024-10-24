@@ -46,60 +46,20 @@ page_sections:
 
   - template: content-feature
     block: news-1
-    headline: Version 0.7.0 released
-    date: 2023-12-15
-    content: Version 0.7.0 of OpenGHG brings the ability to process INTEM model outputs, new metadata handling for improved stability and a range of other bug fixes.
+    headline: Version 0.10.1 released
+    date: 2024-09-27
+    content: Version 0.10.1 of OpenGHG brings bug fixes to search by passing a dictionary to data_level parameter.
     link_text: For the full list of changes see our changelog.
-    link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#070---2023-12-15
+    link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#0101---2024-09-27
 
   - template: content-feature
     block: news-1
-    headline: Version 0.6.2 released
-    date: 2023-08-07
-    content: Version 0.6.2 of OpenGHG brings a fix for incorrect object store paths being loaded in from JSON
+    headline: Version 0.10.0 released
+    date: 2024-09-24
+    content: Version 0.10.0 of OpenGHG brings an update for data type classes to dynamically select inputs for the parse function and include any required/optional keys not passed to it in the metadata. Also range of other bug fixes.
     link_text: For the full list of changes see our changelog.
-    link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#062---2023-08-07
+    link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#0100---2024-09-24
 
-  - template: content-feature
-    block: news-1
-    headline: Version 0.6.1 released
-    date: 2023-08-04
-    content: Version 0.6.1 of OpenGHG brings some bug fixes for metadata handling with multiple object stores and the storage of high time resolution footprints
-    link_text: For the full list of changes see our changelog.
-    link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#061---2023-08-04
-
-  - template: content-feature
-    block: news-1
-    headline: Version 0.6.0 released
-    date: 2023-07-18
-    content: Today we release version 0.6.0 of OpenGHG. This release contains a number of new features including multiple object store support and an updated data management tool
-    link_text: For the full list of changes see our changelog.
-    link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#060---2023-07-18
-
-  - template: content-feature
-    block: news-1
-    headline: Updated NOAA ObsPack retrieval
-    date: 2023-05-10
-    content: With the release of version 0.5.1 of OpenGHG we've made some fixes to our NOAA ObsPack retrieval tutorial, install the latest version of OpenGHG from PyPI or conda today.
-    link_text: Try the OpenGHG ObsPack tutorial.
-    link: https://docs.openghg.org/tutorials/local/Exploring_data/Explore_NOAA_ObsPack.html
-
-  - template: content-feature
-    block: news-1
-    headline: Version 0.5.1 released
-    date: 2023-05-10
-    content: Today we release version 0.5.1 of OpenGHG. This release contains fixes for bugs in some of our standardisation code and our NOAA ObsPack retrieval functionality.
-    link_text: For the full list of changes see our changelog.
-    link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#051---2023-05-10
-
-  - template: content-feature
-    block: news-1
-    headline: Version 0.5.0 released
-    date: 2023-03-14
-    content: Today we release version 0.5.0 of OpenGHG. This release comes with new features and fixes. These include the ability to add EDGAR data to the object store, new ways of searching and storing emissions data, two new tutorials and an OpenGHG command line interface to help you get setup quickly.
-    link_text: For the full list of changes see our changelog.
-    link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#050---2023-03-14
-  
   - template: content-feature
     block: section-header
     header: Videos
