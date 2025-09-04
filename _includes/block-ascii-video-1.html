@@ -1,3 +1,6 @@
+{% if section.video_side and section.video_side == "left" %}
+  {% include block-ascii-video-2.html %}
+{% else %}
 <section class="block block-ascii-video-1">
   <div class="container">
     <div class="columns video-columns">
@@ -9,9 +12,7 @@
         <div class="video-content">
           {{ section.content }}
           <br>
-          <a href="{{ section.video_url }}" target="_blank">
-            Click here for a larger version.
-          </a>
+          <a href="{{ section.video_url }}" target="_blank">Click here for a larger version.</a>
         </div>
       </div>
 
@@ -27,3 +28,4 @@
     </div>
   </div>
 </section>
+{% endif %}
