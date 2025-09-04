@@ -1,0 +1,10 @@
+<div class="carousel">
+  {% for item in section.carousel_items %}
+    <div class="carousel-item">
+      <h3><a href="{{ item.link }}">{{ item.headline }}</a></h3>
+      <p>{{ item.date }}</p>
+      <p>{{ item.content }}</p>
+      <a href="{{ item.link }}">{{ item.link_text }}</a>
+    </div>
+  {% endfor %}
+</div>
