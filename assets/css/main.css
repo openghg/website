@@ -211,11 +211,10 @@
 -----------------------------*/
 .block-section-header {
   text-align: center;
-  margin-bottom: 2rem;
-  padding-left: 0;
-  padding-right: 0;
+  margin: 0 auto 2rem;
+  max-width: 1200px;
+  padding: 0 1rem;
 }
-
 
 .block-section-header h2,
 .block-section-header .header {
