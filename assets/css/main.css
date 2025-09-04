@@ -21,6 +21,21 @@
   transform: translateY(-5px);
   box-shadow: 0 6px 20px rgba(0,0,0,0.15);
 }
+/* Card Grid Container */
+.card-grid-container {
+  padding-left: 1rem;   /* horizontal breathing room */
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Optional: increase padding on larger screens */
+@media (min-width: 768px) {
+  .card-grid-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
 
 /* ----------------------------
    News Carousel
