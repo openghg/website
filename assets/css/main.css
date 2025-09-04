@@ -57,11 +57,21 @@ max-width: 1200px;
 -----------------------------*/
 /* News vertical scroll */
 .news-carousel {
-  max-height: 400px;        /* adjust as needed */
-  overflow-y: auto;         /* vertical scroll */
-  overflow-x: hidden;       /* prevent horizontal scroll */
-  padding-right: 10px;      /* avoid content under scrollbar */
-  display: block;           /* stack items vertically */
+  max-height: 400px;
+  overflow-y: auto; 
+  overflow-x: hidden;
+  padding-right: 10px;
+  display: block;
+}
+.carousel-item {
+  margin-bottom: 1.5rem; 
+}
+
+/* Remove bottom margin for the last item */
+.news-carousel .carousel-item:last-child {
+  margin-bottom: 0;
+}
+
 }
 
 /* Optional: style the scrollbar */
