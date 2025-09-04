@@ -26,7 +26,7 @@ page_sections:
   - template: content-feature
     block: section-header
     header: Getting Started
-    section_class: section-container
+    section_class: card-grid-container
   - template: content-feature
     block: card-grid
     cards:
@@ -46,7 +46,7 @@ page_sections:
   - template: content-feature
     block: section-header
     header: News
-    section_class: section-container
+    section_class: card-grid-container 
   - template: content-feature
     block: carousel
     carousel_items:
