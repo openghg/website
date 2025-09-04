@@ -1,20 +1,24 @@
-{% if section.video_side and section.video_side == "left" %} {% include
-block-video-tutorial-2.html %} {% else %}
+{% if section.video_side and section.video_side == "left" %}
+  {% include block-video-tutorial-2.html %}
+{% else %}
 <section class="block block-video-tut-1">
   <div class="container">
-    <div class="columns">
+    <div class="columns video-columns">
+      
+      <!-- Text Column -->
       <div class="column text">
-        <div class="column text header">{{ section.headline }}</div>
-        <div class="column text date">{{ section.date }}</div>
-        <div class="column text content">{{ section.content }}</div>
+        <h3 class="video-headline">{{ section.headline }}</h3>
+        <p class="video-date">{{ section.date }}</p>
+        <div class="video-content">{{ section.content }}</div>
       </div>
 
+      <!-- Video Column -->
       <div class="column media">
         <div class="video-wrap">
           <div class="video-container">
             <iframe
               src="{{ section.embed_url }}"
-              title="YouTube video player"
+              title="{{ section.headline }}"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
@@ -22,6 +26,7 @@ block-video-tutorial-2.html %} {% else %}
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </section>
