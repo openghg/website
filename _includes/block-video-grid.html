@@ -6,8 +6,9 @@
           <div class="video-wrap">
             <div class="video-container">
               {% if video.embed_url contains "asciinema.org" %}
+                {% assign ascii_id = video.embed_url | split: "/" | last | replace: ".js", "" %}
                 <!-- Asciinema Embed -->
-                <script src="{{ video.embed_url }}" id="asciicast-{{ forloop.index }}" async></script>
+                <script src="{{ video.embed_url }}" id="asciicast-{{ ascii_id }}" async></script>
               {% else %}
                 <!-- YouTube (or iframe-based) Embed -->
                 <iframe
