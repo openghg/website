@@ -1,12 +1,16 @@
 <div class="video-grid">
   {% for video in section.videos %}
-    <div class="video-card" data-embed-url="{{ video.embed_url }}">
+    <div class="video-card">
+      {% if video.embed_url %}
+        <iframe src="{{ video.embed_url }}" frameborder="0" allowfullscreen></iframe>
+      {% elsif video.video_url %}
+        <a href="{{ video.video_url }}" target="_blank">
+          <img src="https://img.youtube.com/vi/{{ video.video_id }}/hqdefault.jpg" alt="{{ video.headline }}">
+        </a>
+      {% endif %}
       <h4>{{ video.headline }}</h4>
       <p>{{ video.date }}</p>
       <p>{{ video.content }}</p>
-      {% if video.video_url %}
-        <img src="https://img.youtube.com/vi/{{ video.video_url | split: '/' | last }}/hqdefault.jpg" alt="{{ video.headline }}">
-      {% endif %}
     </div>
   {% endfor %}
 </div>
