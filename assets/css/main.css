@@ -3,12 +3,12 @@
 -----------------------------*/
 .card-grid {
   display: flex;
-  gap: 1.5rem;
   flex-wrap: wrap;
+  gap: 1.5rem;
   margin-bottom: 2rem;
 }
 
-.card {
+.card-grid .card {
   flex: 1 1 300px;
   background: #fff;
   border-radius: 10px;
@@ -17,7 +17,7 @@
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.card:hover {
+.card-grid .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 20px rgba(0,0,0,0.15);
 }
@@ -37,9 +37,9 @@
   min-width: 300px;
   background: #fff;
   border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
   padding: 1rem;
   flex: 0 0 auto;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -48,6 +48,7 @@
   box-shadow: 0 6px 20px rgba(0,0,0,0.15);
 }
 
+/* Scrollbar styling */
 .carousel::-webkit-scrollbar {
   height: 8px;
 }
