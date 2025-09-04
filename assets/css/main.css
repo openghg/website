@@ -168,31 +168,55 @@
   line-height: 30px;
   cursor: pointer;
 }
-
 /* ----------------------------
-   Section Headers Alignment
+   Section Spacing
 -----------------------------*/
-.section-header {
-  text-align: center;          /* Center the header */
-  margin: 2rem 0 1rem 0;       /* Space above and below */
+/* Mimic Bootstrap mt-5, mb-5 for top/bottom spacing */
+.section-container {
+  margin-top: 3rem;   /* mt-5 equivalent */
+  margin-bottom: 3rem; /* mb-5 equivalent */
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-.section-header h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  line-height: 1.2;
+/* Optional: add responsive padding */
+@media (min-width: 768px) {
+  .section-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
+
 /* ----------------------------
-   Section Headers
+   Section Spacing
+-----------------------------*/
+/* Mimic Bootstrap mt-5, mb-5 for top/bottom spacing */
+.section-container {
+  margin-top: 3rem;   /* mt-5 equivalent */
+  margin-bottom: 3rem; /* mb-5 equivalent */
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Optional: add responsive padding */
+@media (min-width: 768px) {
+  .section-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* ----------------------------
+   Section Headers (updated)
 -----------------------------*/
 .block-section-header {
   text-align: center;
-  margin: 3rem 0 2rem;
+  margin-bottom: 2rem;
 }
 
 .block-section-header h2,
 .block-section-header .header {
-  font-size: 2rem; /* slightly bigger */
+  font-size: 2rem; 
   font-weight: 700;
   color: #222;
   margin-bottom: 0.5rem;
@@ -204,17 +228,17 @@
   color: #555;
 }
 
-/* Optional: add subtle underline or accent line */
 .block-section-header h2::after,
 .block-section-header .header::after {
   content: "";
   display: block;
   width: 60px;
   height: 3px;
-  background-color: #0066cc; /* theme color */
+  background-color: #0066cc;
   margin: 0.5rem auto 0;
   border-radius: 2px;
 }
+
 
 
 /* ----------------------------
