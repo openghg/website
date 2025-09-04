@@ -55,40 +55,34 @@ max-width: 1200px;
 /* ----------------------------
    News Carousel
 -----------------------------*/
-.carousel {
-  display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  gap: 1rem;
-  padding: 1rem 0;
+/* News vertical scroll */
+.news-carousel {
+  max-height: 400px;        /* adjust as needed */
+  overflow-y: auto;         /* vertical scroll */
+  overflow-x: hidden;       /* prevent horizontal scroll */
+  padding-right: 10px;      /* avoid content under scrollbar */
+  display: block;           /* stack items vertically */
 }
 
-.carousel-item {
-  min-width: 300px;
-  background: #fff;
-  border-radius: 10px;
-  padding: 1rem;
-  flex: 0 0 auto;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  transition: transform 0.2s, box-shadow 0.2s;
+/* Optional: style the scrollbar */
+.news-carousel::-webkit-scrollbar {
+  width: 8px;
 }
 
-.carousel-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+.news-carousel::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
 }
 
-/* Scrollbar styling */
-.carousel::-webkit-scrollbar {
-  height: 8px;
-}
-.carousel::-webkit-scrollbar-thumb {
+.news-carousel::-webkit-scrollbar-thumb {
   background: #888;
   border-radius: 4px;
 }
-.carousel::-webkit-scrollbar-thumb:hover {
+
+.news-carousel::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
 
 /* ----------------------------
    Video Grid
