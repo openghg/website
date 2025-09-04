@@ -1,12 +1,33 @@
-<div class="video-grid">
-  {% for video in section.videos %}
-    <div class="video-card" data-embed-url="{{ video.embed_url }}">
-      <h4>{{ video.headline }}</h4>
-      <p>{{ video.date }}</p>
-      <p>{{ video.content }}</p>
-      {% if video.video_url %}
-        <img src="https://img.youtube.com/vi/{{ video.video_url | split: '/' | last }}/hqdefault.jpg" alt="{{ video.headline }}">
-      {% endif %}
+<section class="block block-video-grid">
+  <div class="container">
+    <div class="video-grid">
+      {% for video in section.videos %}
+        <div class="video-card">
+          <div class="video-wrap">
+            <div class="video-container">
+              {% if video.embed_url contains "asciinema.org" %}
+                <!-- Asciinema Embed -->
+                <script src="{{ video.embed_url }}" id="asciicast-{{ forloop.index }}" async></script>
+              {% else %}
+                <!-- YouTube (or iframe-based) Embed -->
+                <iframe
+                  src="{{ video.embed_url }}"
+                  title="{{ video.headline }}"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              {% endif %}
+            </div>
+          </div>
+          <h4>{{ video.headline }}</h4>
+          <p class="video-date">{{ video.date }}</p>
+          <p class="video-content">{{ video.content }}</p>
+          {% if video.video_url %}
+            <a href="{{ video.video_url }}" target="_blank">View full version</a>
+          {% endif %}
+        </div>
+      {% endfor %}
     </div>
-  {% endfor %}
-</div>
+  </div>
+</section>
