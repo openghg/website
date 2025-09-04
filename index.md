@@ -26,7 +26,7 @@ page_sections:
   - template: content-feature
     block: section-header
     header: Getting Started
-
+    section_class: section-container
   - template: content-feature
     block: card-grid
     cards:
@@ -40,12 +40,13 @@ page_sections:
         link_text: Click here for more tutorials.
         link: https://docs.openghg.org/tutorials/index.html
         icon: "fas fa-video"
+    section_class: section-container
 
   # --- News Section ---
   - template: content-feature
     block: section-header
     header: News
-
+    section_class: section-container
   - template: content-feature
     block: carousel
     carousel_items:
@@ -59,7 +60,7 @@ page_sections:
         content: Version 0.15.0 released – Enhanced resampling, footprint handling, modelled obs computation, ObjectStore management, tagging, and bug fixes.
         link_text: For the full list of changes see our changelog.
         link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#0150---2025-07-02
-
+    section_class: section-container
   # --- Videos Section ---
   - template: content-feature
     block: section-header
