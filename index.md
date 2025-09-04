@@ -46,19 +46,19 @@ page_sections:
 
   - template: content-feature
     block: news-1
-    headline: Version 0.10.1 released
-    date: 2024-09-27
-    content: Version 0.10.1 of OpenGHG brings bug fixes to search by passing a dictionary to data_level parameter.
+    headline: Version 0.16.0 released
+    date: 2025-08-29
+    content: Version 0.16.0 released – Added TCCON support, multi-file processing for standardisation, new data type schemas, unit tracking and conversion using pint-xarray, and various bug fixes and workflow improvements
     link_text: For the full list of changes see our changelog.
-    link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#0101---2024-09-27
-
+    link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#0160---2025-08-29
+    
   - template: content-feature
     block: news-1
-    headline: Version 0.10.0 released
-    date: 2024-09-24
-    content: Version 0.10.0 of OpenGHG brings an update for data type classes to dynamically select inputs for the parse function and include any required/optional keys not passed to it in the metadata. Also range of other bug fixes.
+    headline: Version 0.15.0 released]
+    date: 2025-07-02
+    content: Version 0.15.0 released – Enhanced resampling, footprint handling, modelled obs computation, ObjectStore management, tagging, and bug fixes.
     link_text: For the full list of changes see our changelog.
-    link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#0100---2024-09-24
+    link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#0150---2025-07-02
 
   - template: content-feature
     block: section-header
