@@ -94,6 +94,40 @@
 .video-card h4 {
   margin: 0.5rem 0 0;
 }
+/* ----------------------------
+   Video Card Text Alignment
+-----------------------------*/
+.video-card h4 {
+  margin: 0.75rem 0 0.25rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.video-card .video-date {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.video-card .video-content {
+  margin: 0.5rem 0 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #333;
+}
+
+.video-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.video-card a:hover {
+  text-decoration: underline;
+}
 
 /* ----------------------------
    Modal / Lightbox
