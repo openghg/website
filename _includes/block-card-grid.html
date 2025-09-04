@@ -1,12 +1,12 @@
-<div class="card-grid">
-  {% for card in section.cards %}
-    <div class="card">
-      {% if card.icon %}
-        <i class="{{ card.icon }}"></i>
-      {% endif %}
-      <h3>{{ card.headline }}</h3>
-      <p>{{ card.content }}</p>
-      <a href="{{ card.link }}">{{ card.link_text }}</a>
-    </div>
-  {% endfor %}
-</div>
+<section class="{{ section_class | default: 'section-container' }}">
+  <div class="card-grid">
+    {% for card in section.cards %}
+      <div class="card">
+        {% if card.icon %}<i class="{{ card.icon }}"></i>{% endif %}
+        <h3>{{ card.headline }}</h3>
+        <p>{{ card.content }}</p>
+        {% if card.link %}<a href="{{ card.link }}">{{ card.link_text }}</a>{% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</section>
