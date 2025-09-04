@@ -134,3 +134,45 @@
   line-height: 30px;
   cursor: pointer;
 }
+
+/* ----------------------------
+   Section Headers Alignment
+-----------------------------*/
+.section-header {
+  text-align: center;          /* Center the header */
+  margin: 2rem 0 1rem 0;       /* Space above and below */
+}
+
+.section-header h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+/* ----------------------------
+   News Vertical Scroll
+-----------------------------*/
+.news-carousel {
+  max-height: 400px;      /* Set max height as needed */
+  overflow-y: auto;       /* Enable vertical scroll */
+  padding-right: 10px;    /* Prevent content under scrollbar */
+}
+
+/* Scrollbar styling */
+.news-carousel::-webkit-scrollbar {
+  width: 8px;
+}
+
+.news-carousel::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.news-carousel::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.news-carousel::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
