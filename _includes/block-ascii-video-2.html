@@ -1,28 +1,29 @@
-<section class="block block-video-tut-2">
-    <div class="container">
-      <div class="columns">
-        <div class="column media">
-          <div class="video-wrap">
-            <div class="video-container">
-                <script
-                id="{{ section.ascii_id }}"
-                src="{{ section.ascii_url }}"
-                async
-              ></script>
-            </div>
-          </div>
-        </div>
-        <div class="column text">
-          <div class="column text header">{{ section.headline }}</div>
-          <div class="column text date">{{ section.date }}</div>
-          <div class="column text content">
-            {{ section.content }}
-            <a href="{{ section.video_url }}" target="_blank"
-              >Click here for a larger version.</a
-            >
+<section class="block block-ascii-video-2">
+  <div class="container">
+    <div class="columns video-columns">
+
+      <!-- Asciinema Video Column -->
+      <div class="column media">
+        <div class="video-wrap">
+          <div class="video-container">
+            <script src="{{ section.ascii_url }}" id="{{ section.ascii_id }}" async></script>
           </div>
         </div>
       </div>
+
+      <!-- Text Column -->
+      <div class="column text">
+        <h3 class="video-headline">{{ section.headline }}</h3>
+        <p class="video-date">{{ section.date }}</p>
+        <div class="video-content">
+          {{ section.content }}
+          <br>
+          <a href="{{ section.video_url }}" target="_blank">
+            Click here for a larger version.
+          </a>
+        </div>
+      </div>
+
     </div>
-  </section>
-  
+  </div>
+</section>
