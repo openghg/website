@@ -15,7 +15,7 @@ page_sections:
         link_text: About
       - link: "https://docs.openghg.org/"
         link_text: Documentation
-      - link: "https://gemmadashboard.openghg.org/"
+      - link: "https://gemmaconsole.openghg.org/"
         link_text: Gemma Dashboard
       - link: "https://openghg.github.io/decc_dashboard/"
         link_text: Measurements Dashboard 
