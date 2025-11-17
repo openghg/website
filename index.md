@@ -54,7 +54,7 @@ page_sections:
         date: 2025-11-14
         content: Version 0.17.0 released – This release focuses on implementing transferm workflow for CAMS boundary condition processing, improving dataset storage infrastructure, and enhancing consistency across all data-type workflows.
         link_text: For the full list of changes see our changelog.
-        link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#0160---2025-08-29
+        link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#0170---2025-11-14
       - headline: Version 0.16.0 released
         date: 2025-08-29
         content: Version 0.16.0 released – Added TCCON support, multi-file processing for standardisation, new data type schemas, unit tracking and conversion using pint-xarray, and various bug fixes and workflow improvements
