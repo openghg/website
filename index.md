@@ -47,14 +47,40 @@ page_sections:
     block: section-header
     header: News
     section_class: card-grid-container 
+    - template: content-feature
+    block: changelog-embed
+    section_class: section-container
+    content: |
+      <h2 style="text-align:center; margin-top:2rem;">Full Changelog</h2>
+      <iframe 
+        id="changelog-iframe"
+        src="/changelog/"
+        width="100%"
+        style="border:none; overflow:hidden;"
+        scrolling="no"></iframe>
+
+      <script>
+        window.addEventListener("message", (event) => {
+          if (event.data.type === "resize-iframe") {
+            const iframe = document.getElementById("changelog-iframe");
+            if (iframe) iframe.style.height = event.data.height + "px";
+          }
+        });
+      </script>
+
   - template: content-feature
     block: carousel
     carousel_items:
+      - headline: Version 0.17.0 released
+        date: 2025-11-14
+        content: Version 0.17.0 released – This release focuses on implementing transferm workflow for CAMS boundary condition processing, improving dataset storage infrastructure, and enhancing consistency across all data-type workflows. Several core components have been refactored to unify behaviour, streamline metadata handling, and improve reliability across the standardisation pipeline.
+        link_text: For the full list of changes see our changelog.
+        link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#0170---2025-11-14
       - headline: Version 0.16.0 released
         date: 2025-08-29
         content: Version 0.16.0 released – Added TCCON support, multi-file processing for standardisation, new data type schemas, unit tracking and conversion using pint-xarray, and various bug fixes and workflow improvements
         link_text: For the full list of changes see our changelog.
-        link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#0160---2025-08-29
+        link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#0160---2025-08-29  
       - headline: Version 0.15.0 released
         date: 2025-07-02
         content: Version 0.15.0 released – Enhanced resampling, footprint handling, modelled obs computation, ObjectStore management, tagging, and bug fixes.
