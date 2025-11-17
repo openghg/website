@@ -52,7 +52,7 @@ page_sections:
     carousel_items:
       - headline: Version 0.17.0 released
         date: 2025-11-14
-        content: Version 0.17.0 released – This release focuses on implementing transferm workflow for CAMS boundary condition processing, improving dataset storage infrastructure, and enhancing consistency across all data-type workflows.
+        content: Version 0.17.0 released – This release focuses on implementing transform workflow for CAMS boundary condition processing, improving dataset storage infrastructure, and enhancing consistency across all data-type workflows.
         link_text: For the full list of changes see our changelog.
         link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#0170---2025-11-14
       - headline: Version 0.16.0 released
