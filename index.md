@@ -47,7 +47,8 @@ page_sections:
     block: section-header
     header: News
     section_class: card-grid-container 
-    - template: content-feature
+
+  - template: content-feature
     block: changelog-embed
     section_class: section-container
     content: |
@@ -81,7 +82,7 @@ page_sections:
         content: Version 0.16.0 released – Added TCCON support, multi-file processing for standardisation, new data type schemas, unit tracking and conversion using pint-xarray, and various bug fixes and workflow improvements
         link_text: For the full list of changes see our changelog.
         link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#0160---2025-08-29  
-        
+
     section_class: section-container
   # --- Videos Section ---
   - template: content-feature
