@@ -20,7 +20,7 @@ page_sections:
       - link: "https://openghg.github.io/decc_dashboard/"
         link_text: Measurements Dashboard 
       - link: "https://github.com/openghg/openghg/"
-        link_text: OpenGHG Github repo
+        link_text: OpenGHG Github
 
   # --- Getting Started ---
   - template: content-feature
