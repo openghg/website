@@ -19,8 +19,8 @@ page_sections:
         link_text: Gemma Console
       - link: "https://openghg.github.io/decc_dashboard/"
         link_text: Measurements Dashboard 
-      - link: "https://github.com/openghg/openghg/blob/devel/CHANGELOG.md"
-        link_text: Changelog
+      - link: "https://github.com/openghg/openghg/"
+        link_text: OpenGHG Github repo
 
   # --- Getting Started ---
   - template: content-feature
@@ -50,16 +50,16 @@ page_sections:
   - template: content-feature
     block: carousel
     carousel_items:
+      - headline: Version 0.18.0 released
+        date: 2026-02-18
+        content: Version 0.18.0 released – This release contains ability to standardise and store OCO2 satellite data, 6km Footprints, retrieving from the Copernicus Climate Data Store (CDS) and ability to retrieve previous versions of data from the object store.
+        link_text: For the full list of changes see our changelog.
+        link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#0180---2026-02-18
       - headline: Version 0.17.0 released
         date: 2025-11-14
         content: Version 0.17.0 released – This release focuses on implementing transform workflow for CAMS boundary condition processing, improving dataset storage infrastructure, and enhancing consistency across all data-type workflows.
         link_text: For the full list of changes see our changelog.
         link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#0170---2025-11-14
-      - headline: Version 0.16.0 released
-        date: 2025-08-29
-        content: Version 0.16.0 released – Added TCCON support, multi-file processing for standardisation, new data type schemas, unit tracking and conversion using pint-xarray, and various bug fixes and workflow improvements
-        link_text: For the full list of changes see our changelog.
-        link: https://github.com/openghg/openghg/blob/devel/CHANGELOG.md#0160---2025-08-29
     section_class: section-container
   # --- Videos Section ---
   - template: content-feature
